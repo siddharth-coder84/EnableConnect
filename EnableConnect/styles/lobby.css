@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* body{
+  background-image: url(https://img.freepik.com/free-vector/group-video-concept-illustration_114360-4792.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: blur(10px);    
+} */
+
+.imag{
+  width: 50%;
+}
+
+.logo{
+  font-size: 50px;
+  color: #884974;
+  font-weight: 700;
+}
+.centre{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+
+}
+.home{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; 
+  padding: 100px;
+  border: 3px solid #884974;
+  margin-top: 8%;
+  background-color: #f4f4f4;
+  box-shadow: 10px;
+}
+.home{
+  width: 300px;
+}
+
+input{
+  border: 3px solid #884974;
+}
+#name, #room{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  padding: 2px;
+}
+.name,.room{
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.btn{
+  width: 210px;
+  height: 40px;
+  color: #fff;
+  background-color: #884974;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+@media (max-width: 623px){
+  
+.logo{
+  font-size: 40px;}
+
+.home{
+  padding: 60px;
+  margin-top: 50%;
+}
+.home{
+  width: 200px;
+}
+
+input{
+  border: 3px solid #884974;
+}
+#name, #room{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  padding: 2px;
+}
+.name,.room{
+  font-size: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+.btn{
+  width: 210px;
+  height: 40px;
+  color: #fff;
+  background-color: #884974;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+}
+
+@media (max-width: 1200px) {
+  .imag{
+      display: none;
+  }
+}
